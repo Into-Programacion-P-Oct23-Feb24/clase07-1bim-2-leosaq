@@ -20,11 +20,11 @@ public class Ejemplo01 {
 
     public static void main(String[] args) {
         int contador = 1;
-        int suma = 0 ;
+        int suma = 100 ;
         do {
             suma = suma + contador ;
-            contador = contador + 1 ;
-        } while (contador <= 10);
+            
+        } while (contador >= 0);
         System.out.printf("%d\n", suma );
     }
 

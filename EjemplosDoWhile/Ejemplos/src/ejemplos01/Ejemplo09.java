@@ -51,7 +51,7 @@ public class Ejemplo09 {
         } while (bandera); // (bandera==true)
 
         // promedio = suma / contador_calificaciones;
-        promedio = (double) suma / contador_calificaciones;
+        promedio = (double) suma / contador_calificaciones; //(double) se utiliza para cambiar la variable que se encuentra despues de esta planteacion
         cadenaFinal = String.format("%s\nPromedio de calificaciones: %.2f",
                 cadenaFinal,
                 promedio);
